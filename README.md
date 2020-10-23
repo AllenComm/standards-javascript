@@ -2438,12 +2438,12 @@
 ## Whitespace
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
-  - [19.1](#whitespace--spaces) Use soft tabs (space character) set to 2 spaces. eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
+  - [19.1](#whitespace--spaces) Use tabs or 4 spaces. eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
 
     ```javascript
     // bad
     function foo() {
-    ∙∙∙∙let name;
+    let name;
     }
 
     // bad
@@ -2453,7 +2453,7 @@
 
     // good
     function baz() {
-    ∙∙let name;
+    ∙∙∙∙let name;
     }
     ```
 
