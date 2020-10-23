@@ -2455,6 +2455,11 @@
     function baz() {
     ∙∙∙∙let name;
     }
+    
+    // good
+    function baz() {
+        let name;
+    }
     ```
 
   <a name="whitespace--before-blocks"></a><a name="18.2"></a>
